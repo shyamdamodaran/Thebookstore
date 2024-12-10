@@ -273,7 +273,16 @@ input:focus, textarea:focus{
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
     content: ""; /* Remove hamburger when expanded */
 }
-
+    .card {
+        width: 90%; 
+        max-width: none;
+        margin: 0 auto; 
+    }
+    .row img{
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
+    }
 
 
 }
